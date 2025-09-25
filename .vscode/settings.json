@@ -1,0 +1,32 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "hockey_env.py": false,
+        "requirements.txt": false,
+    },
+    "terminal.integrated.env.linux": {
+      "CONDA_PREFIX": "/home/stud328/miniconda3/envs/laser-hockey"
+    },
+    "restoreTerminals.terminals": [
+      {
+        "splitTerminals": [
+          {
+            "name": "Tensorboard",
+            "commands": [
+              "tensorboard --logdir=runs"
+            ]
+          },
+        ]
+      },
+      {
+        "splitTerminals": [
+          {
+            "name": "Local",
+            "commands": [
+              "git pull"
+            ]
+          },
+        ]
+      },
+    ]
+  }
